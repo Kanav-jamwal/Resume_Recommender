@@ -1,0 +1,7 @@
+The recommender system :  
+
+The project Aims at building a recommender system which predicts the top 10 close matches for the given job posting. Initially, it involves cleaning up the given data sets to suit the purpose.
+Inputs: Candidates resumes and Jobs Postings in .txt format.
+Task 1: For more clarity Job Postings are extracted, wrangled and stored in XML and JSON formats.
+Task 2: A sparse representation of the resumes a built, which includes tokenization, vocabulary generation, a sparse matrix which consists of the frequency of each word in each resume is determined. More detail about text processing is present in the .ipynb file provided.
+Task 3: Based on the Sparse matrix generated, Frequency of the words are matched with the required qualification section of the job postings and top 10 resumes are determined.
